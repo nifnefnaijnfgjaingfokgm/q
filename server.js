@@ -17,7 +17,7 @@ const http = require('http'),
       req.query = {};
       req.url.split('#')[0].split('?').slice(1).join('?').split('&').forEach(query => req.query[query.split('=')[0]] = query.split('=').slice(1).join('='));
 
-      if (req.query.url && (req.pathname == '/prox' || req.pathname == '/prox/' || req.pathname == '/session' || req.pathname == '/session/')) {
+      if (req.query.url && (req.pathname == '/crypten' || req.pathname == '/crypten/' || req.pathname == '/session' || req.pathname == '/session/')) {
         var url = atob(req.query.url);
 
         if (url.startsWith('https://') || url.startsWith('http://')) url = url;
