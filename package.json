@@ -7,33 +7,18 @@
     "lib": "lib"
   },
   "dependencies": {
-    "ws": "^7.4.3"
+    "ws": "^8.2.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/titaniumnetwork-dev/alloy.git"
   },
-  "keywords": [
-    "proxy",
-    "titanium network",
-    "alloy",
-    "alloyproxy",
-    "web unblocker",
-    "unblock",
-    "web proxy",
-    "school",
-    "workplace",
-    "web filter"
-  ],
-  "author": "Titanium Network",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/titaniumnetwork-dev/alloy/issues"
-  },
   "homepage": "https://github.com/titaniumnetwork-dev/alloy#readme"
 }
